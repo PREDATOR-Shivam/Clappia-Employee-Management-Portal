@@ -1,0 +1,16 @@
+<div class="bg">
+    <div class="container">
+        <img [src]="myimage" class="img-fluid" alt="Responsive image">
+        <h1 class="display-5" style="color: dodgerblue;">Employee Management System</h1>
+    </div>
+    <div class="Responsive bg">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <img [src]="myimage" alt="" class="d-inline-block align-text-top">
+            <a class="btn btn-primary" routerLink="/employee" routerLinkActive="active">Add Employee</a>
+            <a class="btn btn-primary" style="margin-left:20px ;" routerLink='/employeedetails'
+                routerLinkActive="active">Employees Details</a>
+        </nav>
+    </div>
+    <router-outlet></router-outlet>
+
+</div>
